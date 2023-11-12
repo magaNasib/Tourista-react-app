@@ -11,11 +11,11 @@
 }
 
 .left-clip {
-    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    clip-Path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
     width: 50%;
 }
 
 .right-clip {
     width: 50%;
-    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%);
+    clip-Path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%);
 }

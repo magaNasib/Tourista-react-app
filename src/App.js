@@ -26,7 +26,7 @@ function App() {
           <Route path="blog" element={<Blog/>}/>
           <Route path="contact" element={<Contact/>}/>
           <Route path="faq" element={<FAQ/>}/>
-          <Route path="destinations" element={<DestinationsRoutes />}>
+          <Route path="destinations/*" element={<DestinationsRoutes />}>
             <Route path=":country" element={<DestinationRoutes />} >
                 <Route path=":city" element={<City/>}/>
             </Route>

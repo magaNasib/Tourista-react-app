@@ -13,7 +13,7 @@ function ForgotPassword() {
 
                 <Link className='absolute left-8 top-8' to='/login'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
-                        <path d="M22.5 28.5L12 18L22.5 7.5" stroke="#141D24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M22.5 28.5L12 18L22.5 7.5" stroke="#141D24" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </Link>
                 <div className="flex items-center justify-center p-4">
